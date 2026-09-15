@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Segredos / configuração local — nunca commitar
+.env
+
+# Dados de captura reais, bancos e modelos treinados — nunca commitar
+data/
+!data/.gitkeep
+*.db
+*.csv
+*.pcap
+*.pcapng
+*.joblib
+
+# Diversos
+.DS_Store
+.idea/
+.vscode/
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
